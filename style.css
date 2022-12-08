@@ -1,0 +1,120 @@
+.container{
+    background: linear-gradient(to top right, #075751, #08395d);
+    width: 100vw;
+    height: 70vw;
+    position: absolute;
+    top: 0%;
+    left:0%;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.header{
+    background-color: #08395d;
+    width: 100vw;
+    height: 90px;
+    display: center;
+    position:absolute;
+    text-align: center;
+}
+.toolbar{
+    background: #096f68;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    top: 90px;
+    font-size: 25px;
+    position: absolute;
+    text-align: center;
+}
+.content{
+    top: 160px;
+    position: absolute;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.bottom{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 5vw;
+    position: absolute;
+    top: 65vw;
+    bottom: 0vw;
+}
+a:link{
+    text-decoration: none;
+    color: #33cccc; 
+}
+a:active, a:hover, a:visited{
+    text-decoration: underline;
+    color: #33cccc;
+}
+button{
+    display: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to bottom left, #096f68, #0a4773);
+    width: 22vw;
+    height: 8vw;
+    font-size: 50px;
+    margin-top: 10%;
+    border-radius: 15px;
+    color: white;
+    border-style: none;
+    box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.3);
+    transform: background-color;
+    transition: ease-in-out .4s;
+    transition: top 0.3s, opacity 0.3s;
+}
+button:hover {
+    transition: top 0.3;
+}
+table, td{
+    border-style: double;
+    border-collapse: collapse;
+    padding: 2px;
+}
+.selectbox{
+    display:flex;
+    width: 400px;
+    margin-left: 30vw;
+}
+.selectbox .options-container{
+    background:rgba(0, 0, 0, 0.3);
+    color: white;
+    max-height: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.selectbox .options-container.active{
+    max-height: 240px;
+    opacity: 1;
+    overflow-y: scroll;
+}
+.selectbox .options-container::-webkit-scrollbar{
+    width: 8px;
+    background: #08395d;
+    border-radius: 0 8px 8px 0;
+}
+.selectbox .options-container::-webkit-scrollbar-thumb{
+    background: #33cccc;
+    border-radius: 8px 8px 8px 8px;
+}
+.selectbox .option{
+    padding: 12px 24px;
+    cursor: pointer;
+}
+.selectbox .option:hover{
+    background: #096f68;
+}
+.selectbox label{
+    cursor: pointer;
+}
+.selectbox .option .radio{
+    display: none;
+} 
