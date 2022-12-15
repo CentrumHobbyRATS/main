@@ -118,3 +118,13 @@ table, td{
 .selectbox .option .radio{
     display: none;
 } 
+.tabel{
+	display: center;
+	border-radius: 5px;
+	border-style: outset;
+	border-color: black;
+	margin-right: 5vw;
+	width: 70vw;
+	height: 40vw;
+	margin-left: 5vw;
+}
