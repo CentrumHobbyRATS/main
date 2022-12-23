@@ -8,6 +8,7 @@
     text-align: center;
     color: white;
     font-family: 'Montserrat Alternates', sans-serif;
+    box-sizing: border-box;
 }
 .header{
     background-color: #08395d;
@@ -16,9 +17,11 @@
     display: center;
     position:absolute;
     text-align: center;
+    box-sizing: border-box;
 }
 .toolbar{
     background: #096f68;
+    box-sizing: border-box;
     width: 100vw;
     height: 50px;
     display: flex;
@@ -34,6 +37,7 @@
     text-align: center;
     margin-left: 10vw;
     margin-right: 10vw;
+    box-sizing: border-box;
 }
 .bottom{
     background: rgba(0, 0, 0, 0.5);
@@ -42,6 +46,7 @@
     position: absolute;
     top: 65vw;
     bottom: 0vw;
+    box-sizing: border-box;
 }
 a:link{
     text-decoration: none;
@@ -80,6 +85,7 @@ table, td{
     display:flex;
     width: 400px;
     margin-left: 30vw;
+    box-sizing: border-box;
 }
 .selectbox .options-container{
     background:rgba(0, 0, 0, 0.3);
@@ -127,4 +133,5 @@ table, td{
 	width: 70vw;
 	height: 40vw;
 	margin-left: 5vw;
+    box-sizing: border-box;
 }
